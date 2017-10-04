@@ -1,5 +1,52 @@
+.app {
+  width: 50%; 
+  margin: 0 auto;
+  padding: 100px;  
+}
+
+.app h1 {
+  text-align: center; 
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.button {
+  padding: 10px 15px; 
+  background-color: #39465b; 
+  color: white; 
+  font-size: 12px; 
+  border-radius: 6px; 
+  border: 0px; 
+}
+
+.input {
+  border: 1px solid gray; 
+  padding: 5px 8px; 
+  border-radius: 5px;
+  width: 70%; 
+  font-size: 14px;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-bottom: 30px; 
+  display: block;     
+}
+
+.post {
+  background-color: #ced3db; 
+  padding: 30px; 
+  border-radius: 6px; 
+  margin: 10px 0px; 
+}
+
+
+@media screen and (max-width: 500px){
+  .app {
+    width: 70%; 
+    margin: 0 auto;
+    padding: 100px;  
+  }
 }
