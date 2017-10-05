@@ -21,6 +21,8 @@ body {
   font-size: 12px; 
   border-radius: 6px; 
   border: 0px; 
+  display: block; 
+  margin: 40px auto; 
 }
 
 .input {
